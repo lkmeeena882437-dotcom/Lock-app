@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    background-color: #030303;
+    color: #ffffff;
+    overflow: hidden;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: rgba(245, 158, 11, 0.2);
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
